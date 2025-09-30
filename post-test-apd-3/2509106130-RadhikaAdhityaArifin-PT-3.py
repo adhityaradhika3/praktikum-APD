@@ -4,7 +4,8 @@ print("=== Penghitung Gaji Karyawan PT. BOM ===")
 # Input data karyawan
 nama = input("Masukkan nama karyawan: ")
 jabatan = input(f"Masukkan jabatan karyawan (peracik/pengantar): ")
-hari_kerja = int(input("Masukkan jumlah hari kerja: "))
+hari_kerja = int(input("masukkan jumlah hari kerja dalam sebulan: "))
+
 jam_kerja = int(input("Masukkan jumlah jam kerja per hari: "))
 lembur = int(input("Masukkan jumlah lembur: "))
 
