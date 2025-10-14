@@ -141,7 +141,8 @@ while True:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("=== Pemesanan Menu ===")
                 if len(menu_warung) == 0:
-                    print("Belum ada menu untuk dipesan.")
+                    print("" \
+                    "Belum ada menu untuk dipesan.")
                 else:
                     if username not in pesanan:
                         pesanan[username] = []
